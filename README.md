@@ -2,7 +2,7 @@
 
 Run tasks from package.json.
 
-![release](https://img.shields.io/badge/release-1.0.1-blue.svg)
+![release](https://img.shields.io/badge/release-1.0.2-blue.svg)
 
 ## Install
 ```
