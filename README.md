@@ -1,6 +1,6 @@
 # npm-tasks-runner
 
-Run a list of tasks since your package.json.
+Run tasks from package.json.
 
 ![release](https://img.shields.io/badge/release-1.0.1-blue.svg)
 

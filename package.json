@@ -1,7 +1,7 @@
 {
   "name": "npm-tasks-runner",
   "version": "1.0.1",
-  "description": "Run a list of tasks since your package.json.",
+  "description": "Run tasks from package.json",
   "main": "bin/npm-tasks-runner.js",
   "bin": {
     "npm-tasks-runner": "bin/npm-tasks-runner.js"
