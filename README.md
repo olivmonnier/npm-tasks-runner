@@ -1,6 +1,14 @@
 # npm-tasks-runner
 
 Run a list of tasks since your package.json.
+## Install
+```
+npm install -g npm-tasks-runner
+```
+## Usage
+```
+Usage: npm-tasks-runner [environment]
+```
 ## Example
 In your package.json, declared by environment the list of tasks to execute:
 ```json
@@ -12,12 +20,7 @@ In your package.json, declared by environment the list of tasks to execute:
   "license": "ISC",
   "tasks": {
     "production": [
-      {
-        "name": "browserify",
-        "src": "index.js",
-        "dest": "-o bundle.js",
-        "options": ""
-      },
+      "browserify index.js -o bundle.js",
       {
         "name": "uglify-js",
         "src": "bundle.js",
